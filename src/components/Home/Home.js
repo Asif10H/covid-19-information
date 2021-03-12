@@ -21,8 +21,8 @@ const Home = () => {
     return (
         <div>
             <div class="container-fluid">
-                <h1>Covid-19 Information</h1>
-                <div class="row  g-2 g-lg-3">
+                <h1 className="text-center">Covid-19 Information</h1>
+                <div class="row row-flex g-2 g-lg-3">
                     {
                         <CovidGlobalInfo global={global}></CovidGlobalInfo>
                     }
