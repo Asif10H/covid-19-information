@@ -27,9 +27,9 @@ const Home = () => {
                         <CovidGlobalInfo global={global}></CovidGlobalInfo>
                     }
                 </div>
-            </div>
-            <div className="container-fluid text-center">
-                <h1>  Covid-19 Global Information:</h1>
+                <div className="container-fluid text-center">
+                    <h1>  Covid-19 Countries Information:</h1>
+                </div>
             </div>
             <div className="container-fluid">
                 <div className="row g-2 g-lg-3">
